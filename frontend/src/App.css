@@ -17,6 +17,15 @@
   gap: 20px;
 }
 
+.productcountpart{
+  display: flex;
+  justify-content: end;
+}
+label{
+  border: 2px solid black;
+  padding: 7px;
+}
+
 @media (max-width: 768px) {
   .product-grid {
     grid-template-columns: 1fr;
